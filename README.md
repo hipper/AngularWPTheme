@@ -34,7 +34,8 @@ Check functions.php for initial theme setup and constants.
 
 ####AngularApp
 
-```/lib/angular-app/
+```
+/lib/angular-app/
         - /templates
         - angular-app.php
         - AuthorRoute.php
@@ -50,5 +51,7 @@ Check functions.php for initial theme setup and constants.
 ####Assets
 All AngularJS files (routes, controllers, models):
 
-```/assets/angular-app/```
+```
+/assets/angular-app/
+```
 
