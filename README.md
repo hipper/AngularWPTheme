@@ -38,7 +38,8 @@ Check functions.php for initial theme setup and constants.
         - /templates
         - angular-app.php
         - AuthorRoute.php
-        - GetIdRoute.php```
+        - GetIdRoute.php
+```
     
 **/templates** - directory contains Angular template files
 
