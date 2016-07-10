@@ -1,0 +1,29 @@
+<p class="lead">Hey, it's working!</p>
+<p>This is a simple Angular app to test custom WP-API Routs and some AngularJS functionality.</p>
+<ul>
+    <li><strong>Blog</strong> - displays blog posts with featured images (if set) and pagination.</li>
+    <li><strong>Posts by specific Authors</strong> - displays all posts by the author (by default #1). Uses custom WP-API route.</li>
+    <li><strong>Post ID's</strong> - gets all post ID's. Custom WP-API route</li>
+</ul>
+<br/>
+
+<h3>App files location:</h3>
+<br/><p>Theme files</p>
+<ul>
+    <li><pre>/lib/angular-app/
+        - /templates
+        - angular-app.php
+        - AuthorRoute.php
+        - GetIdRoute.php
+    </pre> - <strong>/templates</strong> - directory contains Angular template files,<br/> - <strong>angular-app.php</strong> - starting point, used to include theme assets,<br/> - <strong>*Route.php</strong> - files used to create custom WP-API routes.</li>
+</ul>
+
+<br/><p>AngularJS files</p>
+<ul>
+    <li><pre>/assets/angular-app/</pre> - all AngularJS app files</li>
+</ul>
+
+<br/><p>Page template</p>
+<ul>
+    <li><pre>template-angular.php</pre> - Sage theme Page template, used as a static frontpage in WP-admin settings. This is where we start.</li>
+</ul>

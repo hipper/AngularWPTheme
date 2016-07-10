@@ -1,0 +1,7 @@
+<div class="clearfix">
+    <a href="#/post/{{id}}" class="pull-right" ng-if="image">
+        <img ng-src="{{image}}" />
+    </a>
+
+    <div ng-bind-html="content | sanitize"></div>
+</div>

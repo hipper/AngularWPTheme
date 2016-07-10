@@ -1,0 +1,19 @@
+<p class="lead">This is a default blog posts. To check the response visit <code>/wp-json/wp/v2/posts</code>.</p>
+<br/>
+
+<div class="post" ng-repeat="post in posts">
+    <h2><a ng-href="#/post/{{post.id}}">{{post.title.rendered}}</a></h2>
+
+    <p>Posted on {{post.date}}</p>
+    
+    <!-- Directive post-content.html -->
+    <post-content 
+        id="{{post.id}}" 
+        image="{{post.featured_image.thumbnail[0]}}" 
+        content="{{post.excerpt.rendered}}" 
+    ></post-content>
+
+<hr>
+</div>
+
+<nav-links></nav-links>

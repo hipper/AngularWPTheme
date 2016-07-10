@@ -1,0 +1,9 @@
+Pagination:
+<hr>
+
+<nav>
+  <ul class="pager">
+    <li class="previous" ng-if="currentPage>1"><a href="{{prevLink}}"><span aria-hidden="true">&larr;</span> Older</a></li>
+    <li class="next" ng-if="currentPage<totalPages"><a href="{{nextLink}}">Newer <span aria-hidden="true">&rarr;</span></a></li>
+  </ul>
+</nav>
